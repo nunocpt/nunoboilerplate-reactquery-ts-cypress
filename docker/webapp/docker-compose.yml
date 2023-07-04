@@ -1,0 +1,20 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: ../../..
+      dockerfile: ./webapp/docker/webapp/Dockerfile
+    image: webapp
+    ports:
+      - "3000:3000"
+    # Defining the environment variables for the container
+    environment:
+      MYSQL_ROOT_PASSWORD: "root_password"
+      REACT_APP_API_URL: "http://localhost:3004"
+      REACT_APP_CLIENT_ID: "0oa46gr0h9JDjYTHG5d7"
+      REACT_APP_ISSUER: "https://dev-83696496.okta.com/oauth2/default"
+      REACT_APP_SPA_CLIENT_ID: "0oa46gr0h9JDjYTHG5d7"
+      REACT_APP_PUBLIC_URL: "http://localhost:3000"
+      REACT_APP_PORT: "3000"
+      REACT_APP_USE_INTERACTION_CODE: "false"
+      REACT_APP_ENDPOINTS_ENV: "dev"

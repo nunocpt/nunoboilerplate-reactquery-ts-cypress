@@ -1,0 +1,4 @@
+{
+  "privateRouting": ["products", "myprofile", "myProfile/coInvestment", "myProfile/productStrategies", "myprofile/users", "myprofile/articles", "myprofile/settings", "insights"],
+  "openRouting": ["","about", "sign-up"]
+}

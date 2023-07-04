@@ -1,0 +1,14 @@
+@import "assets/scss/variables";
+
+.product-card-skeleton-wrapper {
+  background-color: $white;
+  padding: 36px;
+
+  .top-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    margin-bottom: 30px;
+  }
+}

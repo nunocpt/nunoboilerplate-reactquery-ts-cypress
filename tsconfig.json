@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "paths": {
+      "components/*": ["components/*"],
+      "utils/*": ["utils/*"],
+      "interfaces/*": ["interfaces/*"],
+      "services/*": ["services/*"],
+      "views/*": ["views/*"],
+      "assets/*": ["assets/*"],
+      "react-query/*": ["react-query/*"],
+      "hooks/*": ["hooks/*"]
+    },
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "types": ["node"]
+  },
+  "include": ["src"]
+}

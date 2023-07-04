@@ -1,0 +1,44 @@
+@import "assets/scss/variables";
+@import "assets/scss/mixin";
+
+#home-page {
+  #home-page-banner {
+    background-image: url("https://collider.com/wp-content/uploads/the-avengers-movie-poster-banners-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+    .banner-text {
+      padding-top: 155px;
+      h1 {
+        color: $white;
+      }
+
+      h2 {
+        color: $yellow;
+      }
+    }
+  }
+
+  #products-overview-wrapper {
+    margin-bottom: 100px;
+    h2 {
+      margin: 100px 0 50px;
+      text-align: center;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 30px;
+      grid-row-gap: 50px;
+
+      @media only screen and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media only screen and (max-width: 767px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

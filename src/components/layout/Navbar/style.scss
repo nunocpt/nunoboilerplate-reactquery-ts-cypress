@@ -1,0 +1,29 @@
+@import "assets/scss/variables";
+@import "assets/scss/mixin";
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: $navbar_zindex;
+  border-bottom: $border;
+  border-top: $border;
+  background-color: $white;
+  padding: 18px 24px;
+  height: 56px;
+
+  .navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo {
+      img {
+        height: 22px;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

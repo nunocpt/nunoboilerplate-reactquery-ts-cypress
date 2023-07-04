@@ -1,0 +1,66 @@
+@mixin oneLineEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin multi-line-ellipsis {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; // this is the number of lines
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-direction-row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
+@mixin sub-nave-button {
+  padding: 8px 15px;
+  @include flex-column;
+  width: 203px;
+  &:hover {
+    background-color: $lt_gray;
+  }
+  &.active {
+    background-color: $lt_gray;
+  }
+}
+
+@mixin button {
+  cursor: pointer;
+  text-align: center;
+  border: $dk_border;
+}

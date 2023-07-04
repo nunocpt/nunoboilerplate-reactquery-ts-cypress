@@ -1,0 +1,171 @@
+@import "./variables";
+@import "./mixin";
+
+// ################### RESET ###################### //
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// ##################### CUSTOM STYLES ###################### //
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik-Regular-Web.woff") format("woff"),
+    url("../fonts/Graphik-Regular-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../fonts/georgia.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswald-v41-latin-regular.woff") format("woff"),
+    url("../fonts/oswald-v41-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-v8-latin-regular.woff") format("woff"),
+    url("../fonts/inter-v8-latin-regular.woff2") format("woff2");
+}
+
+body {
+  font: $text_font;
+}
+
+.page-container {
+  max-width: $default_width;
+  margin: 0 auto;
+}
+
+h1 {
+  font: $title_font;
+}
+
+h2 {
+  font: $title_font;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+p {
+  font: $text_font;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+  font: $text_font;
+  color: $black;
+}

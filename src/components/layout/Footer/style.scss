@@ -1,0 +1,14 @@
+@import "assets/scss/variables";
+
+.footer {
+  background-color: $red;
+  height: 319px;
+  text-align: left;
+  padding: 52px 54px;
+
+  p {
+    color: $white;
+    font-weight: 900;
+    font-size: 1.3em;
+  }
+}

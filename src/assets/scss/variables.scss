@@ -1,0 +1,46 @@
+// fonts
+$text_font: 400 normal 14px/21px "Graphik", sans-serif;
+$title_font: 400 normal 48px/58px "Georgia", serif;
+$highlight_font: 300 normal 36px/45px "Oswald", sans-serif;
+$table_header_font: 500 normal 10px/10px "Inter", sans-serif;
+
+// colors
+$white: #fff;
+$black: #000;
+$mid-black: #21313c;
+$bg_gray: #f0f0f1;
+$bg2_gray: #e5e5e5;
+$lt_gray: #f9f9f9;
+$dk_gray: #e1e5ea;
+$vdk_gray: #a8a8a8;
+$green: #007d55;
+$dk_green: #0e2217;
+$yellow: #fdae2a;
+$red: #b60000;
+$new_gray: #cccccc;
+$table_blue: "#1BAFDC";
+$table_green: "#A6C773";
+$table_dark_blue: #3867b0;
+$table_dark_green: #007d55;
+$table_orange: #fdae2a;
+$table_white_headers: #fdfdfd;
+$table_border: #d5dbe2;
+$table_search: #fafafa;
+$table_search_icon: #008969;
+$table_header_font_color: #505661;
+
+//borders
+$border: 1px solid $lt_gray;
+$lt_border: 1px solid $bg_gray;
+$dk_border: 1px solid $dk_gray;
+
+// z-indexes
+$navbar_zindex: 100;
+$loader_zindex: 1100;
+
+// widths
+$default_width: 960px;
+$system_pages_desktop_width: 657px;
+
+// heights
+$screen_height_minus_navbar: calc(100vh - 57px);

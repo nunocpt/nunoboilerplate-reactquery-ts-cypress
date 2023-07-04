@@ -1,0 +1,32 @@
+#product-details-page {
+  min-height: 500px;
+  padding-top: 100px;
+  .product {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-column-gap: 30px;
+
+    .left-col {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .right-col {
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      p.price {
+        font-weight: 900;
+        font-size: 1.3em;
+      }
+    }
+  }
+}

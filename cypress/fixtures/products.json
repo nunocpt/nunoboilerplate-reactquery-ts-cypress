@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Iron Man",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Iron_Man_Mark_III_armor_from_Iron_Man_%282008_film%29.jpg/220px-Iron_Man_Mark_III_armor_from_Iron_Man_%282008_film%29.jpg",
+        "description": "Iron man is a badass, bla bla bla lorem ipsum whatever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "30"
+      },
+      {
+        "id": 2,
+        "title": "Hulk",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hulk_%282540708438%29.jpg/1200px-Hulk_%282540708438%29.jpg?20200205082946",
+        "description": "Hulk is a monster, bla bla bla lorem ipsum whatever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "20"
+      },
+      {
+        "id": 3,
+        "title": "The blind guy",
+        "image": "https://cdn.britannica.com/66/103166-050-9423AD02/Stevie-Wonder.jpg",
+        "description": "Cant remember the name of the blind guy, but i'm assuming he is not very powerful, hence the 1€ value. ipsum whatever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "1"
+      },
+      {
+        "id": 4,
+        "title": "Captain Kurk",
+        "image": "https://intl.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/89abe98de6071178edb1b28901a8f459.jpg?itok=UEwq0IRl",
+        "description": "Yeah as you can see I'm not a marvel guy, ipsum whatever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "34"
+      },
+      {
+        "id": 5,
+        "title": "John Cena",
+        "image": "https://www.kindpng.com/picc/m/36-368922_john-cena-png-transparent-png.png",
+        "description": "Yeah as you can see I'm not a marvel guy, ipsum whatever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "22"
+      },
+      {
+        "id": 6,
+        "title": "Louis",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Iron_Man_Mark_III_armor_from_Iron_Man_%282008_film%29.jpg/220px-Iron_Man_Mark_III_armor_from_Iron_Man_%282008_film%29.jpg",
+        "description": "qqwd q tever wyd dyqwgdyqw dqywdgq yqdq dyqdq dqydqwyd qdygqwd qywdqwd qwydqw dyqd qywdgqw dyqwbd qwyd qwdygqwd",
+        "price": "34"
+      }
+]
