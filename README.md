@@ -50,6 +50,8 @@ Tests are written using cypress. Cyrpress is an end to end testing framework tha
 4. To run ESLINT FIX:
     - run the command: `npm run eslint:fix`
 
+Local node package was used
+
 ### Requirements
 
 - React
